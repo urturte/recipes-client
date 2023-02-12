@@ -1,0 +1,45 @@
+.main {
+  margin: auto;
+  width: 840px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+  padding: 5px;
+}
+.main input {
+  width: 50%;
+  margin-left: auto;
+  padding: 10px 5px;
+}
+.main h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 800px) {
+  .main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .buttonWrapper {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .main input {
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px 5px;
+  }
+}

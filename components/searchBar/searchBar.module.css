@@ -1,0 +1,11 @@
+.main {
+  margin: auto;
+  width: 840px;
+  display: flex;
+  flex-direction: ro;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  overflow: hidden;
+  padding: 15px 0;
+}

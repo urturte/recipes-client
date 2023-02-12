@@ -1,0 +1,51 @@
+.main {
+  height: 65px;
+  background-color: #06366d;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 30px;
+  color: #e2d0c0;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.logo {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #e2d0c0;
+}
+.logoSVG {
+  height: 28px;
+  fill: #e2d0c0;
+  padding-left: 10px;
+}
+.meniuList {
+  display: flex;
+  list-style-type: none;
+  height: 60px;
+}
+.meniuItem {
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    font-size: 20px;
+  }
+  .logoSVG {
+    height: 20px;
+  }
+}
